@@ -1,0 +1,21 @@
+
+    Directory: C:\Source\Requirements1
+
+Mode        LastWriteTime  Length Name
+----        -------------  ------ ----
+-a---  10/9/2017  3:24 PM   14941 10.1clients.xlsx
+-a---  10/9/2017  3:22 PM   16935 8.1clients.xlsx
+-a---  10/9/2017  3:23 PM   17156 9.1clients.xlsx
+-a---  9/22/2017 10:47 AM 2779843 apache_access.log
+-a---  9/22/2017 10:54 AM   61804 Basic Vanilla Milkshake Recipe _ Bobby Flay _ Food Network.pdf
+-a---   9/9/2025 10:37 AM       0 C916contents.txt
+-a---   9/9/2025 10:29 AM     581 DailyLog.txt
+-a---  10/9/2017  2:53 PM   16189 eventA.log
+-a---  10/9/2017  2:54 PM   15667 eventB.log
+-a---  10/9/2017  2:54 PM   15766 eventC.log
+-a---  10/9/2017  2:55 PM   16693 eventD.log
+-a---  10/9/2017  2:55 PM   16671 eventE.log
+-a---  9/22/2017 10:57 AM 4150250 JanuaryEventPic1.jpeg
+-a---   9/9/2025 10:29 AM    3617 prompts.ps1
+-a---  9/22/2017 10:58 AM   95010 swedenCarnivalEvent.jpg
+

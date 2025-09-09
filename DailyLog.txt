@@ -1,0 +1,15 @@
+
+Tuesday, September 9, 2025 10:29:24 AM
+
+
+    Directory: C:\Source\Requirements1
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a---           9/22/2017 10:47 AM        2779843 apache_access.log
+-a---           10/9/2017  2:53 PM          16189 eventA.log
+-a---           10/9/2017  2:54 PM          15667 eventB.log
+-a---           10/9/2017  2:54 PM          15766 eventC.log
+-a---           10/9/2017  2:55 PM          16693 eventD.log
+-a---           10/9/2017  2:55 PM          16671 eventE.log
+
