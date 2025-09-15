@@ -63,15 +63,20 @@ do {
                 Write-Host "Error: Not enough memory to get system usage"
             }
         }
-        "4" {
-            try {
-                # Requirement B4: processes sorted by virtual size in grid view--ascending is default (won't allow me to add)
-                Get-Process | Sort-Object VirtualMemorySize | Out-GridView
-            }
-            catch [System.OutOfMemoryException] {
-                Write-Host "Error: Not enough memory to get process list"
-            }
-        }
+
+       "4" {
+    try {
+        # Requirement B4: processes sorted by virtual memory size (least to greatest) in grid view
+        Get-Process |
+            Select-Object Id, ProcessName, VirtualMemorySize64 |
+            Sort-Object VirtualMemorySize64 |
+            Out-GridView -Title "Processes Sorted by Virtual Memory Size"
+    }
+    catch [System.OutOfMemoryException] {
+        Write-Host "Error: Not enough memory to get process list"
+    }
+}
+
         "5" {
             # Requirement B5: exit
             Write-Host "Exiting script. Until next time!"
